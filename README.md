@@ -1,7 +1,7 @@
 Projet_Qt 
 =========
 
- Copyright 2014 Peng BAI <peng.bai@univ-tours.fr, baipeng0811@gmail.com>
+ Copyright 2014 Peng BAI <peng.bai@univ-tours.fr> or <baipeng0811@gmail.com>
  Teacher: Yannick Kergosien <yannick.kergosien@univ-tours.fr>
  Polytech Tours, 37200 Tours, France
 
