@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PersonnelDialog</class>
+ <widget class="QDialog" name="PersonnelDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>291</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Personnel</string>
+  </property>
+  <widget class="QLabel" name="nomlabel">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>50</y>
+     <width>46</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Nom*</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="prenomlabel">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>80</y>
+     <width>46</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Prénom*</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="typelabel">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>110</y>
+     <width>46</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Type*</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="PerComboBox">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>110</y>
+     <width>131</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Banquier type A</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Banquier type B</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Assureur logement</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Assureur voiture</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Assureur vie</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Divers</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Informaticien</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QGroupBox" name="infogroupBox">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>150</y>
+     <width>211</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Informaticien</string>
+   </property>
+   <widget class="QLabel" name="loginLabel">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>46</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Login*</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="mdpLabel">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>71</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Mot de passe*</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="infoLoginLineEdit">
+    <property name="geometry">
+     <rect>
+      <x>52</x>
+      <y>20</y>
+      <width>141</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="infopwdLineEdit">
+    <property name="geometry">
+     <rect>
+      <x>82</x>
+      <y>50</y>
+      <width>111</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="PerAjouterPB">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>260</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ajouter</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="PerAnuPB">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>260</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Annuler</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="nomlineEdit">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>50</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="prenomlineEdit">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>80</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>PerAnuPB</sender>
+   <signal>clicked()</signal>
+   <receiver>PersonnelDialog</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>207</x>
+     <y>271</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>145</x>
+     <y>149</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
