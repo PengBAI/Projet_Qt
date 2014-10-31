@@ -1,7 +1,7 @@
 Projet_Qt 
 =========
 
- Copyright 2014 Peng BAI <peng.bai@univ-tours.fr> or <baipeng0811@gmail.com>
+ Copyright 2014 Peng BAI <peng.bai@etu.univ-tours.fr> or <baipeng0811@gmail.com>
  
  Teacher: Yannick Kergosien <yannick.kergosien@univ-tours.fr>
  
